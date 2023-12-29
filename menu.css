@@ -1,0 +1,132 @@
+/* fonte */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #847769;
+}
+
+li {
+  list-style: none;
+}
+
+.mitnavn {
+  text-decoration: none;
+  /* padding-right: 60px; */
+  font-size: 40px;
+  margin: auto;
+}
+
+.logo img {
+  width: 300px;
+  padding-right: 10px;
+}
+
+a {
+  color: #f6f5f3;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+}
+
+.topnav {
+  min-height: 112px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.topnav a:hover {
+  color: #a8ff02;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #e7d5f9;
+}
+
+.active_link {
+  color: #a8ff02;
+}
+
+/* burger menu når skærmen er lille */
+@media (max-width: 800px) {
+  .hamburger {
+    display: block;
+    grid-column: 4;
+    top: 200px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 112px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #f6f5f3;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-right: 0;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  a {
+    color: #424242;
+    text-decoration: none;
+    font-family: "EB Garamond", sans-serif;
+    font-size: 18px;
+  }
+  .topnav a:hover {
+    color: #a8ff02;
+  }
+
+  .mitnavn {
+    font-size: 35px;
+    display: grid;
+    grid-column: 1;
+  }
+}

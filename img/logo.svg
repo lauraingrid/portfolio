@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176.85 165.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: blue;
+        font-family: Oswald-SemiBold, Oswald;
+        font-size: 30px;
+        font-weight: 600;
+        stroke: blue;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #423b3c;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="m68.48,4.01C33.54,13.38,15.6,38.8,13.7,41.58c-2.78,4.07-23.66,35.85-7.83,71.38,15.52,34.82,56.62,51.5,90.43,52.59,6.74.22,50.08,1.61,71.3-24.04,12.64-15.29,10.17-32.73,5.22-67.62-4.86-34.26-8.01-56.42-27.82-66.87C129.86-.96,108.66-.19,96.3.26c-6.14.22-16.21.64-27.82,3.76Z"/>
+      <text class="cls-1" transform="translate(50.09 74)"><tspan x="0" y="0">L</tspan><tspan class="cls-2" x="12.99" y="0">A</tspan><tspan x="28.95" y="0">URA </tspan><tspan x="0" y="36">INGRID</tspan></text>
+    </g>
+  </g>
+</svg>
