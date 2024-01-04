@@ -58,6 +58,30 @@ p {
   margin: 20px;
 }
 
+/* knapper */
+
+.semere_container {
+  aspect-ratio: 87.01/38.18;
+  width: 80px;
+  margin: 30px;
+  background-image: url(img/semere_hvid.svg);
+}
+
+.semere_container:hover {
+  background-image: url(img/semere_groen.svg);
+}
+
+.minopgave_con {
+  aspect-ratio: 87.01/38.18;
+  width: 80px;
+  margin: 30px;
+  background-image: url(img/min_opgave_hvid.svg);
+}
+
+.minopgave_con:hover {
+  background-image: url(img/min_opgave_groen.svg);
+}
+
 /* footer */
 footer {
   background-color: #847769;
