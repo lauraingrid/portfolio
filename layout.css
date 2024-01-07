@@ -27,6 +27,12 @@ body {
   padding: 10px;
 }
 
+/* animation */
+.animations_grid img {
+  padding: 20px;
+  width: 550px;
+}
+
 /* stor skærm */
 @media (min-width: 800px) {
   /* alt */
@@ -85,6 +91,21 @@ body {
 
   /* UX UI */
 
+  .uxui_grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .uxui_grid1 .ux_col {
+    grid-column: 1/ 2;
+  }
+
+  .ux_img img {
+    margin: 20px;
+  }
+
+  /*
   .uxui1,
   .uxui2 {
     display: grid;
@@ -95,6 +116,7 @@ body {
   .uxui1 .p1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-top: 90px;
   }
 
   .uxui1 .p2 {
@@ -105,15 +127,19 @@ body {
   .uxui1 .uxui_img1 {
     grid-column: 2/3;
     grid-row: 1/2;
+    margin: 30px;
+    width: 600px;
   }
 
   .uxui1 .uxui_img2 {
     grid-column: 2/3;
     grid-row: 2/3;
+    margin: 30px;
   }
 
   .uxui2 .p1 {
     grid-column: 2/3;
+    margin-top: 90px;
   }
 
   .uxui2 .p2 {
@@ -123,20 +149,28 @@ body {
   .uxui2 .uxui_img1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    margin: 30px;
   }
+
+  .uxui2 .uxui_img2 {
+    margin: 30px;
+  }
+
+  */
 
   /* Animation */
 
-  .animation_grid {
+  .animations_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .animation_grid .anitekst {
-    grid-column: 1/2;
+  .animations_grid img {
+    width: 600px;
+    height: 400px;
   }
 
-  .animation_grid img {
-    grid-column: 2/3;
+  .ani_teskt {
+    width: 50%;
   }
 }

@@ -92,7 +92,7 @@ p {
 
 .minopgave_con {
   aspect-ratio: 87.01/38.18;
-  width: 80px;
+  width: 100px;
   margin: 30px;
   background-image: url(img/min_opgave_hvid.svg);
 }
@@ -115,12 +115,6 @@ footer {
   margin: 20px;
   text-align: right;
   font-size: 14px;
-}
-
-.some {
-  margin: 35px;
-  font-size: 18px;
-  font-family: "Courier Prime", monospace;
 }
 
 /* Specifikationer ved stor skærm. alt over 800px */
