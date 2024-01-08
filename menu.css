@@ -11,6 +11,12 @@
 
 header {
   background-color: #847769;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0; /* left og right for at den fylder hele skærmens bredde */
+  right: 0;
+  border-bottom: 2px solid #f1b558;
 }
 
 li {
@@ -40,18 +46,20 @@ a {
 
 .topnav {
   min-height: 112px;
-  max-width: 1000px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
+  width: 100%;
 }
 
 .nav-menu {
   display: flex;
   flex-direction: row;
-  gap: 10%;
+  gap: 5%;
+  margin-left: 60px;
 }
 
 .topnav a:hover {
@@ -78,7 +86,7 @@ a {
 }
 
 /* burger menu når skærmen er lille */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hamburger {
     display: block;
     grid-column: 4;
@@ -100,8 +108,7 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 120px;
-    gap: 0;
+    top: 100px;
     flex-direction: column;
     background-color: #847769;
     width: 100%;
@@ -109,6 +116,7 @@ a {
     transition: 0.3s;
     padding-right: 0;
     border-bottom: 2px solid #f6f5f3;
+    margin-left: 0;
   }
 
   .nav-item {
