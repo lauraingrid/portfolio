@@ -79,26 +79,32 @@ p {
 
 /* knapper */
 
-.semere_container {
+.knappitch_con {
   aspect-ratio: 87.01/38.18;
-  width: 80px;
+  width: 100px;
   margin: 30px;
-  background-image: url(img/semere_hvid.svg);
+  background-image: url(img/knap_pitch.svg);
 }
 
-.semere_container:hover {
-  background-image: url(img/semere_groen.svg);
+.knappitch_con:hover {
+  background-image: url(img/knap_pitch_groen.svg);
 }
 
 .minopgave_con {
   aspect-ratio: 87.01/38.18;
   width: 100px;
   margin: 30px;
+  margin-left: 40px;
   background-image: url(img/min_opgave_hvid.svg);
 }
 
 .minopgave_con:hover {
   background-image: url(img/min_opgave_groen.svg);
+}
+
+/* knapper på ux ui */
+.uxknapper {
+  display: flex;
 }
 
 /* footer */
