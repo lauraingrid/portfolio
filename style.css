@@ -67,10 +67,11 @@ h4 {
 
 p {
   color: #f6f5f3;
-  font-family: "Courier Prime", monospace;
+  font-family: "Courier Prime", sans-serif;
   justify-content: center;
   margin: 20px;
   font-size: 16px;
+  font-weight: 200;
 }
 
 .om_mig_tekst {
@@ -102,8 +103,19 @@ p {
   background-image: url(img/min_opgave_groen.svg);
 }
 
-/* knapper på ux ui */
-.uxknapper {
+.semere_con {
+  aspect-ratio: 87.01/38.18;
+  width: 100px;
+  margin: 30px;
+  margin-left: 40px;
+  background-image: url(img/semere_hvid.svg);
+}
+
+.semere_con:hover {
+  background-image: url(img/semere_groen.svg);
+}
+
+.knapper {
   display: flex;
 }
 

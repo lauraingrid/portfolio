@@ -45,6 +45,12 @@ body {
 
 /* animation */
 
+/* Portfolio */
+
+.portfolio_moodboard img {
+  margin: auto;
+  padding: 30px;
+}
 /* stor skærm */
 @media (min-width: 900px) {
   /* alt */
@@ -163,7 +169,6 @@ body {
     right: 100px;
     top: 300px;
     z-index: -1;
-    rotate: 10deg;
   }
 
   #fisk_spr {
@@ -180,12 +185,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    padding-top: 30px;
-  }
-
-  .ani_tekst1,
-  .ani_tekst2,
-  .ani_tekst3 {
     padding-top: 30px;
   }
 
@@ -261,6 +260,18 @@ body {
     width: 600px;
     min-height: 381px;
     height: auto;
+  }
+
+  /* portfolio */
+
+  .portfolio_moodboard img {
+    margin: auto;
+    width: 700px;
+    margin-top: 180px;
+  }
+
+  .portfolio_grid {
+    display: flex;
   }
 }
 
