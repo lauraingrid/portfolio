@@ -94,12 +94,11 @@ body {
   #pc_con {
     display: block;
     position: absolute;
-    width: 30%;
+    width: 25%;
     aspect-ratio: 88.71/54.5;
-    right: 100px;
+    right: 130px;
     top: 300px;
     z-index: -1;
-    rotate: 7deg;
   }
 
   #pc_spr {
